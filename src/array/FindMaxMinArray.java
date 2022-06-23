@@ -1,4 +1,4 @@
-package array;
+package array; 
 
 public class FindMaxMinArray {
 
@@ -11,7 +11,7 @@ public class FindMaxMinArray {
 			if(maxNumber < numArray[i]) {
 				maxNumber = numArray[i];
 			}
-			else if(minNumber > numArray[i]) {
+			else if(minNumber >  numArray[i]) {
 				minNumber = numArray[i];
 			}
 		}
